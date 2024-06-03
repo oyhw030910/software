@@ -39,7 +39,11 @@ const routes = [
     path: '/userLogin',
     name: 'userLogin',
     component:()=>import('../views/userLogin.vue')
-  },
+  },{
+    path:'/counter',
+    name:'counter',
+    component:()=>import('../views/counter.vue')
+  }
 
 ]
 
